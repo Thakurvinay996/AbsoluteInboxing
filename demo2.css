@@ -57,11 +57,6 @@
     font-family: var(--base-font-family);
   }
 
-
-  /*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
-
   h1,h2,h3,h4,h5,h6 {
     font-family: var(--title-font-family);
     line-height: inherit;
@@ -104,7 +99,7 @@
   }
 
 
-  /*  BLOCKQUOTES */
+  /* QUOTES*/
   .quote {
     position: relative;
     margin: 0;
@@ -159,9 +154,9 @@
   }
 
 
-  /*---------------------------------------
+  /*--
      GENERAL               
-  -----------------------------------------*/
+ --*/
 
   * {
     -webkit-box-sizing: border-box;
@@ -209,9 +204,9 @@
 
 
 
-  /*---------------------------------------
+  /*--
     MENU             
-  -----------------------------------------*/
+  ---*/
 
   .navbar {
     background: var(--menu-bg);
@@ -219,7 +214,7 @@
     top: 0;
     right: 0;
     left: 0;
-    padding: 1.5em;
+    padding: 0.5em;
   }
 
   .navbar-brand {
@@ -227,8 +222,8 @@
     font-size: var(--h2-font-size);
   }
   .navbar-brand img{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin-right: 10px;
   }
 
@@ -335,9 +330,9 @@
 
 
 
-  /*---------------------------------------
+  /*--
      HERO              
-  -----------------------------------------*/
+  --*/
 
   .hero {
     position: relative;
@@ -356,9 +351,9 @@
 
 
 
-  /*---------------------------------------
+  /*--
      PROJECT              
-  -----------------------------------------*/
+  --*/
 
   .project {
     background: var(--project-bg);
